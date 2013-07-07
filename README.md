@@ -2,7 +2,7 @@ alarm.py
 ========
 
 Music Player Daemon Alarm written in Python, Raspberry Pi GPIO Button for controlling MPD on headless server
-
+Uses mpd and mpc to play a random playlist, install these dependencies. 
 
 ### mpd_alarm.py Setup: Add this python script to a cron with your desired start time, path can be anywhere
 crontab -e
