@@ -3,6 +3,7 @@ alarm.py
 
 Music Player Daemon Alarm written in Python, Raspberry Pi GPIO Button for controlling MPD on headless server
 
+Button wiriting, Bottom Left GND, Top Right Pin 23 and 10k resistor, 10k Resistor goes inbetween 3.3V and tied with 23
 
 ### mpd_alarm.py Setup: Add this python script to a cron with your desired start time, path can be anywhere
 crontab -e
