@@ -5,7 +5,7 @@
 
 # Add buttonPressGPIO.py to startup
 # Some sources suggest adding to rc.local isn't a best practice.  I'm looking into daemonizing the process
-# python /home/pi/.mpd/button_press_GPIO.py >> /home/pi/.mpd/button.log 2>&1 &
+# python /home/pi/.mpd/alarm.py/button_press_GPIO.py >> /home/pi/.mpd/alarm.py/button.log 2>&1 &
 
 #from time import sleep
 import time

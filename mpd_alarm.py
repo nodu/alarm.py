@@ -11,7 +11,7 @@
 import os, time, commands, random, sys, re
 
 playlist_dir = '/home/pi/.mpd/playlists'
-alarm_log = '/home/pi/.mpd/pythonAlarm/mpd_alarm.log' 
+alarm_log = '/home/pi/.mpd/alarm.py/mpd_alarm.log' 
 mpd_volume = 60 # Initial volume setting
 step_vol = 10 # Increase volume by 10%
 step_increment = 150 # Increases volume every 150 seconds
