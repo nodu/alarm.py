@@ -10,7 +10,7 @@
 #from time import sleep
 import time
 import re, commands, RPi.GPIO as GPIO # Should get used to using subprocess as commands is depricated
-import mpd_alarm_proper as alarm
+import mpd_alarm as alarm
 
 state_list = [ 'mpc clear', 'mpc volume 100' , 'mpc repeat off', 'mpc random off', 'mpc single off', 'mpc consume off']
 
